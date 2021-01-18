@@ -1,0 +1,22 @@
+{
+    "ALL_PERMISSIONS": [],
+    "SHARED_VPC_PERMISSIONS": [
+        "compute.subnetworks.setIamPolicy",
+        "compute.organizations.enableXpnResource"
+    ],
+    "PARENT_PERMISSIONS": [
+        "resourcemanager.projects.create"
+    ],
+    "SHARED_VPC_PROJ_PERMISSIONS": [
+        "resourcemanager.projects.setIamPolicy"
+    ],
+    "REQUIRED_PERMISSIONS": [
+        "billing.resourceAssociations.create"
+    ],
+    "REQUIRED_APIS": [
+        "admin.googleapis.com",
+        "iam.googleapis.com",
+        "cloudbilling.googleapis.com",
+        "cloudresourcemanager.googleapis.com"
+    ]
+}
